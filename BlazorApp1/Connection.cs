@@ -24,6 +24,20 @@ namespace ConnectDB
             var Create_Connection = new DuckDBConnection("Data Source=C:\\Users\\MeyerJan.FIAE\\Documents\\Aufgaben\\C#_Übungen\\BlazorApp1\\BlazorApp1\\TestDB.sql");
             Create_Connection.Open();
 
+            // this code is only if the sql doesnt exist anymor
+            /*
+            using var command = Create_Connection.CreateCommand();
+
+            command.CommandText = @"
+                CREATE TABLE IF NOT EXISTS Accounts (
+                User_ID INTEGER PRIMARY KEY,
+                Username VARCHAR NOT NULL, 
+                HashedPassword VARCHAR NOT NULL, 
+                Salt VARCHAR NOT NULL
+            );";
+
+            command.ExecuteNonQuery();
+            */
             return Create_Connection;
         }
 
