@@ -5,6 +5,8 @@ VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorApp1", "BlazorApp1\BlazorApp1.csproj", "{46118B8F-421B-445B-AA7D-575BA854B641}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hashing", "lil_hash\Hashing\Hashing.csproj", "{1C71467B-F991-483C-A215-A564BE9B07FD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{46118B8F-421B-445B-AA7D-575BA854B641}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{46118B8F-421B-445B-AA7D-575BA854B641}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{46118B8F-421B-445B-AA7D-575BA854B641}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C71467B-F991-483C-A215-A564BE9B07FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C71467B-F991-483C-A215-A564BE9B07FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C71467B-F991-483C-A215-A564BE9B07FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C71467B-F991-483C-A215-A564BE9B07FD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
