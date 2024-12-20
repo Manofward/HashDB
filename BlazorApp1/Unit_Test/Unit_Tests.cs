@@ -1,8 +1,4 @@
-﻿using DuckDB.NET.Data;
-using Hashing.src;
-using Hashing.src.interfaces;
-using ConnectDB;
-using Microsoft.AspNetCore.Mvc;
+﻿using ConnectDB;
 
 namespace BlazorApp1.Unit_Test
 {
